@@ -2,3 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/* BASE STYLE  */
+main {
+  @apply mt-20;
+}
+
+/* COMMON STYLE  */
+.sp {
+  @apply py-20;
+}
+
+.eq {
+  transition: 500ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+h1 {
+  @apply text-5xl font-semibold;
+}
+
+h2 {
+  @apply text-5xl font-medium;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+p {
+  @apply text-xl;
+}
+
+small {
+  @apply text-xs font-semibold tracking-widest;
+}
