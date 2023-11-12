@@ -41,7 +41,7 @@ const Hero = () => {
                       href={'/products'}
                       className={cn('', buttonVariants({ size: 'auto' }))}
                     >
-                      Browse Beauty Packages
+                      See Products Now
                     </Link>
                   </div>
                 </div>
@@ -51,13 +51,38 @@ const Hero = () => {
                     width={520}
                     height={780}
                     alt={slide.heading}
-                    className='h-full w-full object-contain '
+                    className='h-full w-full object-cover '
                   />
                 </div>
                 <div className='absolute bottom-[-35%] left-0 right-0 grid h-[45%]  grid-cols-3 gap-5 px-20'>
-                  <div className='h-full w-full border-8 border-white bg-gray'></div>
-                  <div className='h-full w-full border-8 border-white bg-gray'></div>
-                  <div className='h-full w-full border-8 border-white bg-gray'></div>
+                  {slide?.products?.map((product) => (
+                    <div className='grid h-full grid-cols-2 border-8 border-white bg-gray'>
+                      <div className='image h-full w-full overflow-hidden'>
+                        <Image
+                          src={product.image}
+                          alt={product.title}
+                          width={480}
+                          height={720}
+                          priority
+                          className='h-full w-full object-cover '
+                        />
+                      </div>
+                      <div className='flex flex-col justify-center gap-2.5 p-3'>
+                        <small className='text-xl text-primary'>
+                          {product.title}
+                        </small>
+                        <p className='text-lg'>
+                          {product.description.substring(0, 50)}
+                        </p>
+                        <Link
+                          href={'/products'}
+                          className={cn('', buttonVariants({ size: 'auto' }))}
+                        >
+                          Shop Now
+                        </Link>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
