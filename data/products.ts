@@ -5,6 +5,7 @@ export const products = [
     price: '$12.99',
     category: 'Electricals',
     qty: 50,
+    star: 4,
     images: [
       'https://images.pexels.com/photos/2622187/pexels-photo-2622187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     ],
@@ -15,6 +16,7 @@ export const products = [
     price: '$24.99',
     category: 'Electricals',
     qty: 30,
+    star: 4.8,
     images: [
       'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -25,6 +27,7 @@ export const products = [
     price: '$79.99',
     category: 'Electricals',
     qty: 15,
+    star: 4.8,
     images: [
       'https://images.pexels.com/photos/2528118/pexels-photo-2528118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     ],
@@ -35,6 +38,7 @@ export const products = [
     price: '$29.99',
     category: 'Electricals',
     qty: 25,
+    star: 4.8,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -45,6 +49,7 @@ export const products = [
     price: '$15.99',
     category: 'Electricals',
     qty: 40,
+    star: 4.8,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -55,6 +60,7 @@ export const products = [
     price: '$9.99',
     category: 'Electricals',
     qty: 60,
+    star: 4.8,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -65,6 +71,7 @@ export const products = [
     price: '$129.99',
     category: 'Electricals',
     qty: 10,
+    star: 4.8,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -75,6 +82,7 @@ export const products = [
     price: '$34.99',
     category: 'Electricals',
     qty: 20,
+    star: 3,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -85,6 +93,7 @@ export const products = [
     price: '$149.99',
     category: 'Electricals',
     qty: 8,
+    star: 3,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
@@ -95,6 +104,7 @@ export const products = [
     price: '$39.99',
     category: 'Electricals',
     qty: 35,
+    star: 5,
     images: [
       'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1600',
     ],
