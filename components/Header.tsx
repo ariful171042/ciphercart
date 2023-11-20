@@ -32,12 +32,12 @@ const Header = () => {
       <nav className='container flex items-center justify-between '>
         <Link href={'/'} className='text-3xl'>
           <span className='font-medium text-black'>Cipher</span>
-          <span className='text-primary font-bold'>Cart</span>{' '}
+          <span className='font-bold text-primary'>Cart</span>{' '}
         </Link>
 
         <ul className='flex gap-2.5 text-lg'>
           {navcontents.map((item) => (
-            <li>
+            <li key={item.lebel}>
               <Link
                 href={item.href}
                 className={cn(

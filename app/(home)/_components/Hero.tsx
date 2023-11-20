@@ -56,7 +56,10 @@ const Hero = () => {
                 </div>
                 <div className='absolute bottom-[-35%] left-0 right-0 grid h-[45%]  grid-cols-3 gap-5 px-20'>
                   {slide?.products?.map((product) => (
-                    <div className='grid h-full grid-cols-2 border-8 border-white bg-gray'>
+                    <div
+                      key={product.title}
+                      className='grid h-full grid-cols-2 border-8 border-white bg-gray'
+                    >
                       <div className='image h-full w-full overflow-hidden'>
                         <Image
                           src={product.image}
