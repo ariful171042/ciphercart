@@ -21,11 +21,10 @@ const ProductsCard: React.FC<ProductPageProps> = ({ product }) => {
         />
       </div>
       <div className='detals flex flex-col gap-3 pt-6'>
+        <Star stars={product.star} />
         <h4 className='text-xl font-semibold text-primary'>{product.title}</h4>
         <p className='text-md '>{product.desc.substring(20)}...</p>
-        <div className='flex'>
-          <Star stars={product.star} />
-        </div>
+
         <div className='flex items-center justify-between'>
           <span className='text-xl  font-bold uppercase text-primary'>
             {product.price}
