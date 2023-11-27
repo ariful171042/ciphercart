@@ -19,7 +19,7 @@ const Star: React.FC<StarProps> = ({ stars }) => {
       </span>
     );
   });
-  return <div className='flex gap-2 text-orange-400'>{ratingStar}</div>;
+  return <div className='flex gap-1 text-xl text-orange-400'>{ratingStar}</div>;
 };
 
 export default Star;
