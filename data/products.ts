@@ -1,5 +1,6 @@
 export const products = [
   {
+    id: '1',
     title: 'Smart LED Bulb',
     desc: 'Energy-efficient smart LED bulb with color-changing capabilities.',
     price: '$12.99',
@@ -11,6 +12,7 @@ export const products = [
     ],
   },
   {
+    id: '2',
     title: 'Power Strip with USB Ports',
     desc: 'Multi-outlet power strip with surge protection and USB charging ports.',
     price: '$24.99',
@@ -22,6 +24,7 @@ export const products = [
     ],
   },
   {
+    id: '3',
     title: 'Smart Thermostat',
     desc: 'Programmable smart thermostat for efficient control of home heating and cooling.',
     price: '$79.99',
@@ -33,6 +36,7 @@ export const products = [
     ],
   },
   {
+    id: '4',
     title: 'Wireless Charging Pad',
     desc: 'Qi-enabled wireless charging pad for smartphones and other devices.',
     price: '$29.99',
@@ -44,6 +48,7 @@ export const products = [
     ],
   },
   {
+    id: '5',
     title: 'Smart Plug',
     desc: 'Smart plug for remotely controlling and monitoring connected devices.',
     price: '$15.99',
@@ -55,6 +60,7 @@ export const products = [
     ],
   },
   {
+    id: '6',
     title: 'Rechargeable AA Batteries',
     desc: 'Pack of 4 rechargeable AA batteries with high capacity.',
     price: '$9.99',
@@ -66,6 +72,7 @@ export const products = [
     ],
   },
   {
+    id: '7',
     title: 'Smart Doorbell',
     desc: 'Video-enabled smart doorbell with motion detection and two-way audio.',
     price: '$129.99',
@@ -77,6 +84,7 @@ export const products = [
     ],
   },
   {
+    id: '8',
     title: 'LED Desk Lamp',
     desc: 'Adjustable LED desk lamp with multiple brightness levels.',
     price: '$34.99',
@@ -88,6 +96,7 @@ export const products = [
     ],
   },
   {
+    id: '9',
     title: 'Smart Ceiling Fan',
     desc: 'Wi-Fi-enabled smart ceiling fan with remote control and voice command support.',
     price: '$149.99',
@@ -99,6 +108,7 @@ export const products = [
     ],
   },
   {
+    id: '10',
     title: 'Portable Power Bank',
     desc: 'High-capacity portable power bank for charging mobile devices on the go.',
     price: '$39.99',

@@ -3,7 +3,7 @@ import Products from './_components/Products';
 
 const ProductPage = () => {
   return (
-    <main className='sp container'>
+    <main className=''>
       <Products />
     </main>
   );

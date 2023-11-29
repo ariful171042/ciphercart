@@ -5,7 +5,7 @@ import { productType } from '@/types/productType';
 
 const Products = () => {
   return (
-    <section className=''>
+    <section className='sp container'>
       <SectionTitle
         title='Products'
         subTitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nisi.'
